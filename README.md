@@ -251,8 +251,3 @@ Open your browser to the local development address.
 - Demo assets: AI avatar images & short looping video for interviewer animation.  
 
 ---
-
-## Notes about uploaded files
-Some previously uploaded files in this environment have expired and are not accessible anymore. If you want me to include any of those files in the README or integrate them into the project (e.g., PRD, design images), please re-upload the files and I will integrate them immediately.
-
----
