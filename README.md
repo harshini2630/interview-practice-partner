@@ -1,9 +1,3 @@
-Here is a README file for your **Interview Practice Partner** project, formatted using the structure and style of the reference file provided.
-
-This README highlights the project's **agentic capabilities**, **real-time context retrieval** (MCP), and **full-stack integration**.
-
------
-
 # 🎙️ **README.md — Interview Practice Partner**
 
 ### *AI-Powered Interview Simulation with Real-Time Context & Voice I/O*
