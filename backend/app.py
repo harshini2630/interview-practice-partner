@@ -10,6 +10,8 @@ from pypdf import PdfReader
 from groq import Groq
 import edge_tts
 from duckduckgo_search import DDGS
+from dotenv import load_dotenv
+load_dotenv()
 
 # --- CONFIGURATION ---
 app = FastAPI()
@@ -23,7 +25,8 @@ app.add_middleware(
 )
 
 # REPLACE WITH YOUR KEY
-GROQ_CLIENT = Groq(api_key="[REDACTED_GROQ_KEY]") 
+GROQ_CLIENT = Groq(api_key=os.getenv("GROQ_API_KEY"))
+
 
 active_sessions: Dict[str, dict] = {}
 os.makedirs("temp_audio", exist_ok=True)
